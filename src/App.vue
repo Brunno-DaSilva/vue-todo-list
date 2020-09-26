@@ -5,34 +5,34 @@
 </template>
 
 <script>
-import Todos from "./components/Todos";
+import Todos from './components/Todos'
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Todos,
+    Todos
   },
   data() {
     return {
       todos: [
         {
           id: 1,
-          value: "Do One",
-          completed: false,
+          value: 'Do One',
+          completed: false
         },
         {
           id: 2,
-          value: "Do Two",
-          completed: false,
+          value: 'Do Two',
+          completed: false
         },
         {
           id: 3,
-          value: "Done Three",
-          completed: true,
-        },
-      ],
-    };
-  },
-};
+          value: 'Done Three',
+          completed: true
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style>
